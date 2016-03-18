@@ -1,0 +1,13 @@
+body, html {
+  box-sizing: border-box;
+}
+
+.Counter {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 5px;
+}
+
+.Counter div {
+  padding: 5px;
+}

@@ -22,18 +22,10 @@ define([
     render() {
       return $(
         'div',
-        null,
-        $(
-          'button',
-          { onClick : this.handleClickDecrement },
-          '-'
-        ),
-        this.state.count,
-        $(
-          'button',
-          { onClick : this.handleClickIncrement },
-          '+'
-        )
+        { className : 'Counter' },
+        $('button', { onClick : this.handleClickDecrement }, '-'),
+        $('div', null, this.state.count),
+        $('button', { onClick : this.handleClickIncrement }, '+')
       )
     }
   })

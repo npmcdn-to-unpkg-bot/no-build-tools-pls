@@ -1,7 +1,7 @@
 require.config({
   paths: {
-    'react'     : 'https://fb.me/react-0.14.7',
-    'react-dom' : 'https://fb.me/react-dom-0.14.7',
+    'react'     : 'https://npmcdn.com/react@0.14.7/dist/react.min',
+    'react-dom' : 'https://npmcdn.com/react-dom@0.14.7/dist/react-dom.min',
   },
 })
 
